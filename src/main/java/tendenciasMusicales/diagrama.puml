@@ -1,0 +1,24 @@
+
+
+@startuml
+
+class Cancion {
++ void reproducir()
+}
+Cancion --> Popularidad
+
+interface Popularidad {
+    void detalle()
+}
+
+class EnAuge implements Popularidad {
+
+}
+
+class Tendencia implements Popularidad {
+}
+
+class Normal implements Popularidad {
+}
+
+@enduml
