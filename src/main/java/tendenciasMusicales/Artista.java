@@ -1,6 +1,11 @@
 package tendenciasMusicales;
-import lombok.
+
+import lombok.Getter;
+import lombok.Setter;
+
 public class Artista {
-    public String nombre;
+    @Setter
+    @Getter
+    private String nombre;
 
 }
